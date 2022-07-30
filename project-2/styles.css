@@ -1,0 +1,25 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style:normal;
+}
+h2, h3 {
+    background-color: black;
+    color: white;
+}
+div {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+a:hover {
+    color: aqua;
+}
+a:active {
+    color: red;
+}
+a:visited:hover {
+    color: rgb(200, 116, 225)
+}
+a:visited:active {
+    color:red;
+}
