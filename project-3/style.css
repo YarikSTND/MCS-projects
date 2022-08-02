@@ -5,16 +5,12 @@
   }
 
 .background {
-    width: 1440px;
     height: 1080px;
     background-image:url(background.jpg);
     background-size: contain;
-    ;
-
 }
 
 .bar {
-    width:1440px;
     height: 100px;
     background-color: rgb(107, 107, 178);
     display: flex;
@@ -30,7 +26,6 @@
 }
 
 .landing-info {
-    width: 1440px;
     height: 500px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
