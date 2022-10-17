@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 140px;
+    width: 100%;
+    padding: 50px;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+
+
+    font-size: 50px;
+    color: red;
+    font-family:Arial;
+
+    z-index: 1;
+
+}
+.heroText {
+    margin: auto;
+    top: 550px;
+    bottom: 0;
+    left: 250px;
+    right: 0;
+    display: flex;
+    position: absolute;
+
+    font-size:100px;
+    font-family: Arial;
+    color: #E50043;
+
+
+
+}
+
+.links > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.links > ul > li {
+    display: flex;
+    padding-right: 25px;
+
+}
+
+.hero {
+    display:flex;
+padding-top: 140px;
+
+}
+
+.text {
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+    border: 3px solid #F8BFC7;
+    border-radius: 20px ;
+    width: 1040px;
+
+
+
+
+    font-size: 25px;
+    font-family:Arial;
+
+}
+.text > p {
+    padding: 24px;
+}
+
+.bottom {
+    padding: 50px;
+    display: flex;
+    width: 100%;
+
+    font-family:Arial;
+    font-size: 50px;
+    background-color: #F8BFC7;
+    color: #FFFFFF;
+    
+}
+.bottles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:200px;
+}
+.bottle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottleDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px;
+    padding-left: 0;
+    height:58px ;
+    width: 249px; ;
+    font-family:Arial;
+    font-size: 25px;
+}
+
+.compound {
+    display: flex;
+    width: 1040px;
+    height: 280px;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.smallBottle {
+    padding: 30px 80px;
+}
+
+.compoundText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    font-family: "Arial";
+    font-size: 25px;
+    padding: 30px;
+    padding-left: 0;
+}
