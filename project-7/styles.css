@@ -1,67 +1,41 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 .header,
 .bottom {
-    height: 160px;
-    width: 100%;
-
     display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 140px;
 
-    background-color: darkslategrey;
-    color: aliceblue;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    line-height: 57px;
-    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: slategrey;
+    font-size: 25px;
 }
 
 .albumsSelector {
     display: flex;
-    justify-content: space-around;
-
-    padding: 50px;
-
-    
-
-    border: 1px solid darkslategray;
-}
-.nameOfAlbum {
-    display: flex;
     justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin: 70px;
+}
 
+.album { 
+    margin-right: 30px;
+
+
+    width: 252px;
+    border:1px solid black;
+    margin-bottom: auto;
+}
+
+.discription {
+    padding: 30px;
+}
+
+.nameOfAlbum {
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-
-}
-
-.tracklist {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-
-
-    list-style-type: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
     padding-bottom: 15px;
-}
-
-
-.album {
-    border: 1px solid black;
-
-}
-
-.photoAlbum {
-    width: 100%;
-
 }
